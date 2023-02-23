@@ -1,0 +1,194 @@
+/* This CSS file styles the LoginPage component, which displays a login form. */
+
+/* The .login-container class is applied to the container div of the login form. */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5E9CF;
+  height: 600px;
+  width: 600px;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: -2px 10px 30px 0.1px black;
+  overflow: hidden;
+}
+/* The display property sets the element to a flex container.
+   The justify-content property aligns the items along the main axis.
+   The align-items property aligns the items along the cross axis.
+   The background-color property sets the background color of the container.
+   The height and width properties set the size of the container.
+   The flex-direction property specifies the direction of the main axis.
+   The border-radius property sets the radius of the border corners.
+   The box-shadow property adds shadow to the container element.
+   The overflow property specifies whether to clip the content or to add scrollbars when the content overflows the element. */
+
+
+/* The .login-card class is applied to the container div of the login card. */
+.login-card {
+  display: flex;
+  flex-direction: column;
+}
+/* The display property sets the element to a flex container.
+   The flex-direction property specifies the direction of the main axis. */
+
+
+/* The .title class is applied to the title div in the login card. */
+.title {
+  font-size: 40px;
+  font-weight: 900;
+  color: #F5E9CF;
+  position: absolute;
+  left: 30px; 
+  bottom: 30px;
+}
+/* The font-size property sets the size of the font.
+   The font-weight property sets the weight of the font.
+   The color property sets the color of the font.
+   The position property specifies the position of the element.
+   The left and bottom properties set the distance from the left and bottom edges of the parent element. */
+
+
+/* The .top-card-container class is applied to the container div of the top card. */
+.top-card-container {
+  width: 100%;
+  height: 250px;
+  margin-top: -85px;
+  overflow: hidden;
+  border-radius: 6px 6px 0px 0px;
+  position: relative;
+  margin-bottom: 30px;
+}
+/* The width and height properties set the size of the container.
+   The margin-top property sets the distance between the top edge of the container and the parent element.
+   The overflow property specifies whether to clip the content or to add scrollbars when the content overflows the element.
+   The border-radius property sets the radius of the border corners.
+   The position property specifies the position of the element.
+   The margin-bottom property sets the distance between the bottom edge of the container and the next element. */
+
+
+/* The label selector styles all the labels in the form. */
+label {
+  margin-bottom: 6px;
+}
+/* The margin-bottom property sets the distance between the bottom of the label and the next element. */
+
+
+/* The .text class is applied to the message element in the form. */
+.text {
+  font-size: 16px;
+  font-weight: 500;
+}
+/* The font-size property sets the size of the font.
+   The font-weight property sets the weight of the font. */
+
+/* Styles for login information */
+.login-info{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: 500;
+  width: 70%;
+}
+  
+/* Styles for input fields */
+.input-fields{
+  text-align: left;
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 3px 0px 5px 8px;
+}
+
+/* Styles for primary button */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  width: 40%;
+}
+
+/* Styles for login content */
+.login-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Styles for login image */
+.login-image {
+  border-radius: 6px 6px 0px 0px;
+  margin-top: -80px;
+  opacity: 0.9;
+}
+
+/* Styles for input field */
+#inField {
+  margin: auto;
+}
+
+/* Styles for error message */
+.error-msg {
+  color: red;
+}
+
+/* Styles for center alignment */
+#center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for login button */
+#loginbtn {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Styles for small text */
+.small {
+  text-align: center;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .login-container {
+    width: 80%;
+  }
+}
+
+/* Styles for social icons */
+.social-icon{
+  width: 20px;
+  height: 20px;
+}
+
+/* Styles for social icon images */
+.social-icon-image{
+  width: 100%;
+}
+
+/* Styles for social container */
+.social-container{
+  display: flex;
+  gap: 30px;
+  margin: 20px 0px 10px 0px;
+}
+
+/* Styles for primary button */
+.btn-primary{
+  background: #2F58CD;
+  padding: 6px;
+  border:none;
+  margin: 6px 0px 6px 0px;
+}
+
+/* Styles for secondary button */
+.btn-secondary{
+  background: #2F58CD;
+  padding: 8px 0px 8px 0px;
+  border-radius: 6px;
+  color: white;
+  width: 70%;
+  margin: 6px 0px 12px 0px;
+  border: none;
+}

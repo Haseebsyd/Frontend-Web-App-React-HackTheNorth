@@ -1,0 +1,28 @@
+/* This CSS file styles the EventsPage component, which displays a list of events.
+   The .events-page-container class is applied to the container div of the component. */
+.events-page-container {
+  margin: 0.225rem;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+/* The margin property sets the margin on all four sides of the container.
+In this case, the margin is set to 0.525rem on all sides, which adds a small amount of space around the component. */
+.header{
+  color: #F5E9CF;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.logout{
+  background-color: #2F58CD;
+  border: none;
+  width: 100px;
+  height: 35px;
+  color: white;
+  border-radius: 6px;;
+}
+
