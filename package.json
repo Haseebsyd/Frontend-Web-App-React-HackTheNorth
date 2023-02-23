@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "http://Haseebsyd.github.io/Front-End-Web-App-React-HackTheNorth",
+  "homepage": "http://Haseebsyd.github.io/Frontend-Web-App-React-HackTheNorth",
   "private": true,
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0",
