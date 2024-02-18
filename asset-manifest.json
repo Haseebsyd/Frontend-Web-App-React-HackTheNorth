@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Frontend-Web-App-React-HackTheNorth/static/css/main.7bcc2b48.css",
+    "main.js": "/Frontend-Web-App-React-HackTheNorth/static/js/main.721a6fe5.js",
+    "static/media/background.webp": "/Frontend-Web-App-React-HackTheNorth/static/media/background.12f9d77ead8415e3a6d4.webp",
+    "static/media/instagram.png": "/Frontend-Web-App-React-HackTheNorth/static/media/instagram.b4ff9be06a8f84fada1b.png",
+    "static/media/twitter.png": "/Frontend-Web-App-React-HackTheNorth/static/media/twitter.8e65601e69067aadfe55.png",
+    "index.html": "/Frontend-Web-App-React-HackTheNorth/index.html",
+    "main.7bcc2b48.css.map": "/Frontend-Web-App-React-HackTheNorth/static/css/main.7bcc2b48.css.map",
+    "main.721a6fe5.js.map": "/Frontend-Web-App-React-HackTheNorth/static/js/main.721a6fe5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bcc2b48.css",
+    "static/js/main.721a6fe5.js"
+  ]
+}
