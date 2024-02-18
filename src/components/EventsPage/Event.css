@@ -1,0 +1,176 @@
+.event-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  margin: 0.75rem;
+  padding-bottom: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(0, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
+
+.grid-item {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.event-header, .event-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  color: white;
+  padding: 20px;
+  border-radius: 6px 6px 0 0;
+  opacity: 0.9;
+}
+
+.event-footer {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0 0 6px 6px;
+}
+
+.card:hover .event-footer {
+  display: flex;
+}
+
+.event-title, .event-date, .event-speakers, .event-date {
+  margin: 0.25rem 0;
+}
+
+.event-type {
+  padding: 0.25em 0.5em;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.green {
+  background-color: green;
+}
+
+.event-date {
+  font-style: italic;
+}
+
+.event-url-button, .public-url, .private-url, .event-url-button img {
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.event-url-button {
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  background-color: #183c54;
+  text-align: center;
+  display: inline-block;
+}
+
+.related-events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.related-events li {
+  margin: 0.25em 0;
+  cursor: pointer;
+  color: #183c54;
+}
+
+.event-links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; 
+  justify-content: center;
+}
+
+.event-link:visited, .event-link:visited * {
+  color: inherit;
+}
+
+.blue-line {
+  height: 2px;
+  background-color: #007bff;
+  margin: 1rem 0;
+}
+
+.event-buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.event-url-button {
+  width: 100%;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.public-url {
+  background-color: #007bff;
+}
+
+.public-url:hover, .public-url:focus {
+  background-color: #0056b3;
+}
+
+.private-url {
+  background-color: #28a745;
+}
+
+.private-url:hover, .private-url:focus {
+  background-color: #1e7e34;
+}
+
+.event-url-button:hover, .event-url-button:focus {
+  transform: translateY(-2px);
+}
+
+.event-url-button img {
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+@media screen and (max-width: 480px) {
+  .event-container {
+    padding: 0.5rem;
+  }
+
+  .event-footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .event-url-button {
+    width: 100%;
+  }
+}
